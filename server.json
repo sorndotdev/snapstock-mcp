@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sorndotdev/snapstock-mcp",
+  "title": "Snapstock Dividend Safety",
+  "description": "Dividend safety scores, red flags, and dividend history for 1,912 US-listed dividend payers.",
+  "repository": {
+    "url": "https://github.com/sorndotdev/snapstock-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/sorndotdev/snapstock-mcp/releases/download/v0.1.0/snapstock-mcp.mcpb",
+      "fileSha256": "ecfadbcf46666dc03784d992f32263e298a896dfd46be9a63b03bcdb9701acf0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

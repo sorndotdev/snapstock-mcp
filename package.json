@@ -1,6 +1,7 @@
 {
   "name": "snapstock-mcp",
   "version": "0.1.0",
+  "mcpName": "io.github.sorndotdev/snapstock-mcp",
   "description": "Read-only MCP server for Snapstock's free dividend safety scores, red flags, and dividend history.",
   "type": "module",
   "bin": {
@@ -16,6 +17,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
+    "build:mcpb": "node scripts/build-mcpb.mjs",
     "test": "npm run build && node test/smoke.mjs"
   },
   "engines": {
@@ -46,7 +48,9 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@anthropic-ai/mcpb": "^2.1.2",
     "@types/node": "^22.0.0",
+    "esbuild": "^0.28.2",
     "typescript": "^5.0.0"
   }
 }
