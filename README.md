@@ -49,6 +49,12 @@ npm run build
 node dist/index.js
 ```
 
+### Official MCP Registry
+
+The server is listed as `io.github.sorndotdev/snapstock-mcp` in the Official MCP Registry.
+An MCPB bundle is attached to the [v0.1.0 release](https://github.com/sorndotdev/snapstock-mcp/releases/tag/v0.1.0),
+so registry-aware clients can install it without npm.
+
 ## Tools
 
 | Tool | What it returns |
