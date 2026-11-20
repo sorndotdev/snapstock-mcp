@@ -1,0 +1,52 @@
+{
+  "name": "snapstock-mcp",
+  "version": "0.1.0",
+  "description": "Read-only MCP server for Snapstock's free dividend safety scores, red flags, and dividend history.",
+  "type": "module",
+  "bin": {
+    "snapstock-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE",
+    "DATA-LICENSE.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "npm run build && node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "dividends",
+    "dividend-safety",
+    "finance",
+    "stock-data",
+    "investing"
+  ],
+  "author": "Snapstock team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorndotdev/snapstock-mcp.git"
+  },
+  "homepage": "https://learn.snapstock.app/data/dividend-safety/",
+  "bugs": {
+    "url": "https://github.com/sorndotdev/snapstock-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "csv-parse": "^7.0.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
