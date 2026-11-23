@@ -1,5 +1,7 @@
 # Snapstock MCP Server
 
+[![sorndotdev/snapstock-mcp MCP server](https://glama.ai/mcp/servers/sorndotdev/snapstock-mcp/badges/score.svg)](https://glama.ai/mcp/servers/sorndotdev/snapstock-mcp)
+
 A read-only, keyless [Model Context Protocol](https://modelcontextprotocol.io/) server for
 [Snapstock](https://learn.snapstock.app/)'s free dividend safety dataset.
 
